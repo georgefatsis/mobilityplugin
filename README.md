@@ -1,3 +1,37 @@
+This is the mobility plugin for SDN-WISE Onos.
+
+If you try to use the official plugin with onos due to Java issues you cannot use 
+the build.xml in order to compile cooja. If you use this mobility plugin you can 
+compile and use cooja with out issue. 
+
+In order to use the plugin: 
+
+copy the plugin at the directory: ~/sdn-wise-contiki/contiki/tools/cooja/apps
+Then navigate inside the directory: cd mobility 
+
+Edit build.xml and specificly line 7: 
+
+`<property name="cooja_jar" value="/home/user/sdn-wise-contiki/contiki/tools/cooja/dist/cooja.jar"/>`
+
+change the directory to the directory your cooja.jar is located 
+
+And do the following: 
+
+% sudo ant clean
+% sudo ant jar
+
+ * start cooja:
+        cd contiki-folder/tools/cooja
+        ant run
+    * create a new simulation
+        file/new simulation
+    * setup the project directories
+        settings/Manage project directories/Enter path manually:
+          ../apps/mobility/
+        Save as default
+    * quit COOJA
+
+----------------------------------------------------------------------------------
 Mobility COOJA plugin
 
 (Clarification: Fredrik Osterlind is the author of the mobility-plugin and I have
