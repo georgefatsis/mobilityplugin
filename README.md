@@ -19,7 +19,7 @@ And do the following:
 
 % sudo ant clean
 
-% sudo ant jar
+% ant jar
 
  * start cooja:
         cd contiki-folder/tools/cooja
