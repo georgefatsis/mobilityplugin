@@ -18,6 +18,7 @@ change the directory to the directory your cooja.jar is located
 And do the following: 
 
 % sudo ant clean
+
 % sudo ant jar
 
  * start cooja:
