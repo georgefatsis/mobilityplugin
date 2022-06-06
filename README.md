@@ -129,4 +129,3 @@ Usage:
       can have the sim stand still for X seconds and then start the movements,
       without having to recompile or generate new movement data.
 
-# mobilityplugin
