@@ -24,15 +24,16 @@ And do the following:
  * start cooja:
         cd contiki-folder/tools/cooja
         ant run
-    * create a new simulation
+ * create a new simulation
         file/new simulation
-    * setup the project directories
+ * setup the project directories
         settings/Manage project directories/Enter path manually:
           ../apps/mobility/
         Save as default
-    * quit COOJA
+ * quit COOJA
 
 ----------------------------------------------------------------------------------
+
 Mobility COOJA plugin
 
 (Clarification: Fredrik Osterlind is the author of the mobility-plugin and I have
@@ -67,16 +68,16 @@ mobility model vs that+Manhattan grid+disaster area etc) but it works nice and
 was fun to write. I will add it to this project as soon as I cleared up the code
 a bit. I have included a file with movement data for 15 nodes and the following
 parameters:
-  # Number of nodes: 15
-  # Time [s]: 600.0 seconds
-  # Min speed [m/s]: 1.0
-  # Max speed [m/s]: 4.0
-  # Min pause time [s]: 2.0
-  # Max pause time [s]: 10.0
-  # Currently disregarding the first 10.0 seconds
-  # Resolution [s]: 0.2
-  # Maximum X-size [m]: 150.0
-  # Maximum Y-size [m]: 150.0
+  * Number of nodes: 15
+  * Time [s]: 600.0 seconds
+  * Min speed [m/s]: 1.0
+  * Max speed [m/s]: 4.0
+  * Min pause time [s]: 2.0
+  * Max pause time [s]: 10.0
+  * Currently disregarding the first 10.0 seconds
+  * Resolution [s]: 0.2
+  * Maximum X-size [m]: 150.0
+  * Maximum Y-size [m]: 150.0
 However, a small default position.dat is included with position data for only
 one node to simplify when installing. To use the large file, unzip it and
 replace the small file.
